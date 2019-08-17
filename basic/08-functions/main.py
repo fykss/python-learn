@@ -48,8 +48,28 @@ printinfo1(70, 60, 50)
 
 # The Anonymous Functions
 
-sum = lambda arg1, arg2: arg1 + arg2
+def sum(arg1, arg2): return arg1 + arg2
 
 
 print("Value of total : ", sum(10, 20))
 print("Value of total : ", sum(20, 20))
+
+
+# Global vs. Local variables
+
+total1 = 0  # This is global variable.
+
+
+def sum1(arg1, arg2):
+    # Add both the parameters and return them."
+    total1 = arg1 + arg2  # Here total is local variable.
+    global total2  # Here total is local variable.
+    total2 = arg1 + arg2
+    print("Inside the function local total : ", total1)
+    print("Inside the function local total : ", total2)
+    return total1
+
+
+sum1(10, 20)
+print("Outside the function global total : ", total1)
+print("Outside the function global total : ", total2)
