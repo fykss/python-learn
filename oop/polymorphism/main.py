@@ -11,7 +11,12 @@ class Student(Person):
         super().display_info()
         print("University: ", self.__university)
 
+    def __str__(self):
+        return "University: {}".format(self.__university)
+
 
 student = Student("Vlad", 23, "KNU")
 
 student.display_info()
+
+print(student)

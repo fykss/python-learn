@@ -34,7 +34,7 @@ class Person:
         print("Name:", self.__name, "\tAge:", self.__age)
 
     def __str__(self) -> str:
-        return super().__str__()
+        return "Name: {} Age: {}".format(self.__name, self.__age)
 
 
 person = Person("Vlad", 24)
@@ -49,3 +49,5 @@ person.age = 25
 print(person.age)
 
 person.display_info()
+
+print(person)
