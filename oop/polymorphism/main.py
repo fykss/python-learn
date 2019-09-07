@@ -1,4 +1,4 @@
-from oop.encapsulation.person import Person
+from person import Person
 
 
 class Student(Person):
