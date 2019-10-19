@@ -1,5 +1,6 @@
 # Implementation of Linked List. https://www.geeksforgeeks.org/linked-list-set-1-introduction/
 # https://stackabuse.com/linked-lists-in-detail-with-python-examples-single-linked-lists/
+# My Java Solution https://github.com/fykss/algorithm/blob/master/src/datastruct/LinkedListApp.java
 # TODO: impl linked list
 
 
