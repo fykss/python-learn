@@ -8,7 +8,7 @@ data = {'Name': ['Tom', 'Nick', 'Bob', 'Jack'],
 df = pd.DataFrame(data)
 print(df.head())
 
-beauty_data = pd.read_csv('data_structures/data_frame/data/beauty.csv', sep=';')
+beauty_data = pd.read_csv('data_structures/dataframe/data/beauty.csv', sep=';')
 
 # Method type()
 print(f'Method type(): {type(beauty_data)}\n')
