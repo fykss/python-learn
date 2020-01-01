@@ -11,7 +11,6 @@ for i in range(0, len(a)):
     print(a[i], end=" ")
 print()
 
-
 # creating an array with float type
 b = arr.array('d', [2.5, 3.2, 3.3])
 
